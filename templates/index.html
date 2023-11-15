@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Prosty Blog</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Prosty Blog</h1>
+        <div id="article-list"></div>
+        <div id="article-form">
+            <h2>Dodaj Nowy Artykuł</h2>
+            <form id="new-article-form">
+                <label for="title">Tytuł:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="content">Treść:</label>
+                <textarea id="content" name="content" required></textarea>
+                <button type="submit">Opublikuj</button>
+            </form>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
